@@ -15,7 +15,7 @@ import retrofit2.Response
 
 private const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
-    var apikey="AIzaSyC7EeNPSz6lT8TyBiRjMYv4TmtFsE2opag"
+    var apikey="APIKEY"
     val retroService = RetrofitInstance.getRetroInstance().create(excelapi::class.java)
 
     override fun onCreate(savedInstanceState: Bundle?) {
